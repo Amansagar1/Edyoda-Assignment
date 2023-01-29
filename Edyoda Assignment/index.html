@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Favorite Foods Assignment </title>
+  <link rel="icon" href="/Image/20211119221114_IMG_4785.jpg">
+
+  <!-- All the image use from this website:-https://www.foodiesfeed.com/ -->
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    #topbar {
+      background-color: rgb(20, 19, 19);
+      padding: 15px;
+    }
+
+    .Heading {
+      color: aliceblue;
+      font-size: 20px;
+      padding: 8px;
+    }
+
+    .container {
+      height: 400px;
+      width: 100%;
+      background-image: url(/Image/slider/slide1.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      animation-name: foodani;
+      animation-duration: 10s;
+      animation-timing-function: ease-in;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes foodani {
+      0% {
+        background-image: url(/Image/slider/slide4.jpg)
+      }
+
+      35% {
+        background-image: url(/Image/slider/slide2.jpg)
+      }
+
+      75% {
+        background-image: url(/Image/slider/slide\ 3.jpg)
+      }
+    }
+
+    #Food-Type {
+      background-color: rgb(17, 130, 178);
+      padding: 15px;
+    }
+
+    .Food-Type {
+      color: rgb(0, 0, 0);
+      font-size: 25px;
+      padding: 10px;
+    }
+
+    .Coffe {
+      width: 600px;
+      height: 600px;
+    }
+
+    .Desert {
+      width: 600px;
+      height: 600px;
+    }
+
+    .Main-Course {
+      position: middle;
+      width: 600px;
+      height: 600px;
+    }
+
+    .Coffe-position {
+      text-align: center;
+    }
+
+    .Desert-position {
+      text-align: right;
+    }
+
+    .Main-Course-position {
+      text-align: center;
+    }
+
+    .Coffe-txt-size {
+      font-size: 25px;
+    }
+
+    .Desert-txt-size {
+      font-size: 25px;
+    }
+
+    .Maincourse-txt-size {
+      font-size: 25px;
+    }
+  </style>
+</head>
+
+<body style="margin: 0;">
+  <div id="topbar">
+    <a href="#">
+      <span class="Heading">Home</span>
+      <span class="Heading">Menu</span>
+      <span class="Heading">About</span>
+      <span class="Heading">FeedFback</span>
+    </a>
+  </div>
+  <div class="container"></div>
+
+  <h1>
+    <center><u>Favorite Foods Assignment</u></center>
+  </h1>
+
+  <br>
+  <div id="Food-Type">
+    <center>
+      <a href="#Coffe">
+        <span class="Food-Type">Coffe</span>
+      </a>
+      <a href="#Chocolate Cake">
+        <span class="Food-Type">Desert</span>
+      </a>
+      <a href="#ShaksHouka">
+        <span class="Food-Type">Main-Course</span>
+      </a>
+    </center>
+  </div>
+
+  <br>
+
+  <!-- cofee section -->
+
+  <ul class="Coffe-txt-size">
+    <li><a class="Coffe" href="#Coffe">Coffe</a> </li>
+    <li><a class="Coffe" href="#Cappuccino Coffe">Cappuccino Coffe</a> </li>
+  </ul>
+  <br>
+
+  <!-- cofee section image -->
+
+  <div class="Coffe-position">
+    <img id="Coffe" class="Coffe" src="/Image/coffe/foodiesfeed.com_bike-coffee-top-view.jpg" alt="Coffe" />
+    <p>Coffe</p>
+  </div>
+  <div class="Coffe-position">
+    <img id="Cappuccino Coffe" class="Coffe" src="/Image/coffe/foodiesfeed.com_cappuccino-with-sweet-waffle.jpg" alt="Cappuccino Coffe" />
+    <p>Cappuccino Coffe</p>
+  </div>
+  <br>
+
+  <!-- desert section -->
+
+  <ul class="Desert-txt-size">
+    <li><a class="Desert" href="#Chocolate Cake">Chocolate Cake</a></li>
+    <li><a class="Desert" href="#Raspberry Donut">Raspberry Donut</a></li>
+    <li><a class="Desert" href="#Crispy Crust Cooke">Crispy Crust Cooke</a></li>
+    <li><a class="Desert" href="#Chocolate Curd Cake">Chocolate Curd Cake</a></li>
+  </ul>
+  <br>
+  <!-- Desert section image -->
+
+  <div class="Desert-position">
+    <img id="Chocolate Cake" class="Desert" src="/Image/desert/foodiesfeed.com_chocolate-cake.jpg" alt="Chocolate Cake" />
+    <p>Chocolate Cake</p>
+  </div>
+  <div class="Desert-position">
+    <img id="Raspberry Donut" class="Desert" src="/Image/desert/foodiesfeed.com_raspberry-donut-close-up.jpg" alt="Raspberry Donut" />
+    <p>Raspberry Donut</p>
+  </div>
+  <div class="Desert-position">
+    <img id="Crispy Crust Cooke" class="Desert" src="/Image/desert/foodiesfeed.com_crispy-crust-dessert.jpg" alt="Crispy Crust Cooke" />
+    <p>Crispy Crust Cooke</p>
+  </div>
+  <div class="Desert-position">
+    <img id="Chocolate Curd Cake" class="Desert" src="/Image/desert/foodiesfeed.com_chocolate-curd-cake.jpg" alt="Chocolate Curd Cake" />
+    <p>Chocolate Curd Cake</p>
+
+  </div>
+  <br>
+  <!-- main-course secion -->
+
+  <ul class="Maincourse-txt-size">
+    <li><a class="Main-Course" href="#ShaksHouka">ShaksHouka</a></li>
+    <li><a class="Main-Course" href="#Pasta Linguine With Vegetables">Pasta Linguine With Vegetables</a></li>
+    <li><a class="Main-Course" href="#Half Chicken">Half Chicken</a></li>
+    <li><a class="Main-Course" href="#Vegetables Tacos With Lemon">Vegetables Tacos With Lemon</a></li>
+  </ul>
+
+  <!-- main-course section image -->
+
+  <div class="Main-Course-position">
+    <img id="ShaksHouka" class="Main-Course" src="/Image/main course/foodiesfeed.com_delicious-shakshouka.jpg" alt="ShaksHouka">
+    <p>ShaksHouka</p>
+  </div>
+  <div class="Main-Course-position">
+    <img id="Pasta Linguine With Vegetables" class="Main-Course" src="/Image/main course/foodiesfeed.com_fresh-pasta-linguine-with-dill-and-vegetables.jpg" alt="Pasta Linguine With Vegetables">
+    <p>Pasta Linguine with vegetables</p>
+  </div>
+  <div class="Main-Course-position">
+    <img id="Half Chicken" class="Main-Course" src="/Image/main course/foodiesfeed.com_half-of-a-chicken-in-a-restaurant.jpg" alt="Half Chicken">
+    <p>Half Chicken</p>
+  </div>
+  <div class="Main-Course-position">
+    <img id="Vegetables Tacos With Lemon" class="Main-Course" src="/Image/main course/foodiesfeed.com_vegetables-tacos-With-cilantro-and-lemon.jpg" alt="Vegetables Tacos With Lemon">
+    <p>Vegetables Tacos With Lemon</p>
+  </div>
+  <br>
+  <br>
+
+  <ul>
+    <center>
+      <li><b><u> Coffe</u></b></li>
+      <ol>
+        <li>Coffe - &#8377 50/- </li>
+        <li>Cappuccino Coffe - &#8377 125/-</li>
+      </ol>
+      <br>
+
+      <li><b><u>Desert</u></b> </li>
+      <ol>
+        <li>Chocolate Cake - &#8377 75/-</li>
+        <li>Raspberry Donut - &#8377 105/-</li>
+        <li>Crispy Crust Cooke - &#8377 95/-</li>
+        <li>Chocolate Curd Cake - &#8377 120/-</li>
+      </ol>
+      <br>
+      <li><b><u> Main-Course</u></b> </li>
+      <ol>
+        <li>ShaksHouka - &#8377 200/-</li>
+        <li>Pasta Linguine With Vegetables - &#8377 225/-</li>
+        <li>Half Chicken - &#8377 350/-</li>
+        <li>Vegetables Tacos With Lemon - &#8377 300/-</li>
+      </ol>
+      <br>
+      <br>
+    </center>
+  </ul>
+  <q>
+    <center>I go, as long as I get a hot vegetable dish, I am okay
+  </q>
+  <cite>A.P.J Abdul Kalam</center></cite>
+  <pre><center>
+          ---Thank You MD TAFSIRUL HAQUE DANISH Sir For Everything---
+        </center></pre>
+</body>
+
+</html>
